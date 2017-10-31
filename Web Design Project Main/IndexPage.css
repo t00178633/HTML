@@ -1,0 +1,53 @@
+/* CSS Document */  
+h1{
+text-align:center;}          
+#Body{
+background-color:#FFFF66;
+margin-left:auto;
+height:100%;
+margin-right:auto
+
+} 
+
+#Background {  
+background-color:#FFCC66;  
+color:#000000;
+text-align:left; 
+padding-left:10px;   
+font-family:verdana, arial, helvetica, sans-serif;  
+line-height:22px;
+border-color:#ccc;
+padding:40px;   
+width:55%;
+margin-left:auto; 
+margin-bottom:600px;
+margin-right:auto;
+border-width:1px;
+}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: inline-block;
+    list-style-type: none;
+    width:150px;
+    font-weight: bold;
+    color: #FFFFCC;
+    background-color: #FFCC66;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #FFCC33;
+}

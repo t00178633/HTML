@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>The Swanlinbar Inn Contact Page</title>
+    <style =text/css> 
+ 
+  
+</style> 
+  <div id="Body"> 
+  <div id="Background">
+    <meta charset='utf-8'>    
+    <link rel="stylesheet" type="text/css" href="Contact.css"> 
+    <nav>
+            <a href="Index.html">Home</a> 
+            <a href="Booking Page.html">Booking</a> 
+            <a href="About.html">About</a> 
+            <a href="Contact.html">Contact</a>   
+       </nav>         
+    <h1>Contact Information </h1> 
+    <fieldset> 
+   <legend> within Ireland</legend>Please Call: 180057648365<hr>
+   <legend> outside Ireland</legend>Please Call: 189057264985
+    </fieldset>
+    <fieldset>
+    <legend>Email Address:</legend> info@theswanlinbarinnhotel.com 
+    </fieldset>    
+    <fieldset>
+    <legend>Postal Address </legend>                                                  
+    The Swanlinbar Inn,<br>             
+    Swanlinbar,<br>                       
+    County Cavan,<br>                     
+    Ireland
+                 
+    <!--http://www.w3schools.com/googleAPI/google_maps_ref.asp (I have changed the map size and location co-ordinates--> 
+    <script src="http://maps.googleapis.com/maps/api/js"></script>  
+    <script>
+
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(54.192557, -7.7045734),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>    
+    <div id="googleMap" align="center"style="width:350px;height:240px;"></div><br>
+    <a href="#top">Back to top</a>
+  </head>
+  <body>
+
+  </body>
+</html>

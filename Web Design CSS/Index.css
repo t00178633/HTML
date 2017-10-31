@@ -1,0 +1,38 @@
+/* CSS Document */      
+#Background{
+background-color:#FFCCFF;}   
+    
+#MainBox {  
+background-color:#FFCCFF;  
+color:#000000;
+text-align:left; 
+padding-left:10px;   
+font-family:verdana, arial, helvetica, sans-serif;  
+line-height:22px;
+border-color:#ccc;
+padding:40px;   
+width:55%;
+margin-left:auto;
+margin-right:auto;
+border-width:1px; 
+}
+    
+#Menubar nav ul li{  
+list-style: none;  
+}  
+              
+a{ 
+text-align:center; 
+float: left;  
+height: 40px;  
+line-height: 40px;  
+padding: 10px;  
+margin:5px;      
+background-color: #CC0099;  
+font-size: 20px;  
+color: #ffffff;  
+font-family: verdana, arial, helvetica, sans-serif; 
+}  
+               
+a:hover{  
+background-color: #CC00FF; }

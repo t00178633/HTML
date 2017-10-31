@@ -1,0 +1,66 @@
+/* CSS Document */
+ body  {
+    background-image: url("golden_sand.jpg");
+    background-attachment:fixed;
+    background-size:cover;  
+  }
+  
+  #container{
+  height:1800px;
+  width:75%;
+  margin-left:140px;
+  margin-right:90px;
+  margin-top:0px;
+  margin-bottom:0px; 
+  padding: 0px; 
+  text-align: center; 
+  font-family: verdana, arial, helvetica, sans-serif; 
+  background-color: #FFFF66;
+  }
+   #centered{ 
+ width:100%;
+ text-align:center;
+ }
+ a:link, a:visited {
+  
+    display: inline-block;
+    list-style-type: none;
+    width:220px;
+    height:20px;
+    font-weight: bold;
+    color: #FFFFCC;
+    background-color: #FFCC00;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+ul {text-align:center; 
+    display:inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+li { 
+    text-align:center;
+    float: left;
+}
+a:hover, a:active {
+    background-color: #FFCC33;
+    }
+    
+#text{
+  width:50%;
+  margin-left:200px;
+  margin-right:90px;
+  margin-top:0px;
+  margin-bottom:0px; 
+  padding: 0px; 
+  text-align: center; 
+  font-family: verdana, arial, helvetica, sans-serif; 
+  background-color: #FFFF66;
+} 
